@@ -1,0 +1,39 @@
+body {
+    background-image: url("../images/carsbackground1.png");
+    /*megcsinalni hogy fent legyen sok feher*/
+    background-color: white;
+    background-repeat: repeat-y;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+#menuBar {
+    font-size: 30px;
+    float: top;
+    background: transparent;
+    margin-top: 5px;
+}
+
+table {
+    width: 100%;
+}
+
+#menuBar .menuButton {
+    width: 200px;
+    color: black;
+    font-weight: bolder;
+    text-decoration-line: none;
+    display: inline-block;
+    text-align: center;
+    border: 5px solid darkblue;
+    border-radius: 20px;
+    padding: auto;
+    margin-top: 15px;
+    margin-left: 20%;
+    background: yellow;
+}
+
+#menuBar .menuButton:HOVER {
+    background: black;
+    color: white;
+}
