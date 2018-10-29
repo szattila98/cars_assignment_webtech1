@@ -1,10 +1,9 @@
 body {
-    background-image: url("../images/carsbackground1.png");
-    /*megcsinalni hogy fent legyen sok feher*/
+    /*background-image: url("../images/carsbackground.png");*/
     background-color: white;
-    background-repeat: repeat-y;
-    background-position: top;
-    background-attachment: fixed;
+    /*background-repeat: repeat-y;*/
+    /*background-position: top;*/
+    /*background-attachment: fixed;*/
 }
 
 #menuBar {
@@ -19,7 +18,7 @@ table {
 }
 
 #menuBar .menuButton {
-    width: 200px;
+    width: 212px;
     color: black;
     font-weight: bolder;
     text-decoration-line: none;
@@ -28,12 +27,37 @@ table {
     border: 5px solid darkblue;
     border-radius: 20px;
     padding: auto;
-    margin-top: 15px;
     margin-left: 20%;
     background: yellow;
+    font-family: Arial, serif;
 }
 
 #menuBar .menuButton:HOVER {
-    background: black;
+    background: red;
     color: white;
+}
+
+#banner {
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: center;
+    margin-top: -2%;
+    font-family: "Ubuntu Mono", serif;
+    height: 80px;
+}
+
+.contentImage {
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#description {
+
+}
+
+#bottomLine {
+
 }
