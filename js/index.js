@@ -1,7 +1,10 @@
-function topFunction() {
-    document.documentElement.scrollTop = 0;
-}
+$(document).ready(function () {
 
-function nope() {
-    alert("We both know that's not gonna happen, fwend!")
-}
+    $("#BtnTop").click(function () {
+        $('html, body').animate({scrollTop: 0}, 'fast');
+    });
+
+    $("#BtnBiz").click(function () {
+        alert("We both know that's not gonna happen, fwend!");
+    });
+});
