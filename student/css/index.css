@@ -3,18 +3,18 @@ body {
     border: 5px solid chartreuse;
 }
 
-#menuBar {
+table {
+    width: 100%;
+}
+
+#menuTable {
     font-size: 30px;
     float: top;
     background: transparent;
     margin-top: 5px;
 }
 
-table {
-    width: 100%;
-}
-
-#menuBar .menuButton {
+#menuTable .menuButton {
     width: 212px;
     color: black;
     font-weight: bolder;
@@ -29,7 +29,7 @@ table {
     font-family: Arial, serif;
 }
 
-#menuBar .menuButton:HOVER {
+#menuTable .menuButton:HOVER {
     background: red;
     color: white;
 }
@@ -37,10 +37,17 @@ table {
 #banner {
     font-weight: bolder;
     font-size: 60px;
-    text-align: center;
     margin-top: -2%;
     font-family: "Ubuntu Mono", serif;
     height: 80px;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#banner .home:HOVER {
+    color: red;
+    cursor: pointer;
 }
 
 .contentImage {
@@ -149,3 +156,23 @@ p {
     margin-bottom: 5px;
 }
 
+.listTable {
+    border: 3px solid black;
+    margin-top: 2%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th {
+   font-size: 25px;
+   font-weight: bold;
+}
+
+#listManuf {
+    display: none;
+}
+
+#listCar {
+    display: none;
+}

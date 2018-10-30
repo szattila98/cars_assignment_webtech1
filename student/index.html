@@ -1,5 +1,5 @@
 <!Doctype html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>CarZ</title>
@@ -12,22 +12,22 @@
 <body>
 
 <div id="banner">
-    <p>Car Record Manager</p>
+    <p class="home">Car Record Manager</p>
 </div>
 
-<div id="menuBar">
-    <!--border ennek is esetleg lekerekitett-->
-    <table>
-        <tr>
-            <td><a href="" class="menuButton">List Manufacturers</a></td>
-            <!--formoknal legordulore is van metodus-->
-            <td><a href="" class="menuButton">List Cars</a></td>
-            <!--kulon html oldalra es az vezet teljes listara meg manufacturer altali rendezesre-->
-            <td><a href="" class="menuButton">Add Car</a></td>
-            <td><a href="" class="menuButton">Add Manufacturer</a></td>
-        </tr>
-    </table>
-</div>
+
+<!--border ennek is esetleg lekerekitett-->
+<table id="menuTable">
+    <tr>
+        <td><a href="#" class="menuButton">List Manufacturers</a></td>
+        <!--formoknal legordulore is van metodus-->
+        <td><a href="#" class="menuButton">List Cars</a></td>
+        <!--kulon html oldalra es az vezet teljes listara meg manufacturer altali rendezesre-->
+        <td><a href="" class="menuButton">Add Car</a></td>
+        <td><a href="" class="menuButton">Add Manufacturer</a></td>
+    </tr>
+</table>
+
 
 <table>
     <tr>
@@ -43,6 +43,30 @@
     <p class="greatAGAIN">ISN'T THAT GR8 M8?!</p>
 </div>
 
+<div id="listCar">
+    <table class="listTable">
+        <tr>
+            <th>Name</th>
+            <th>Consumption</th>
+            <th>Color</th>
+            <th>Manufacturer</th>
+            <th>Available</th>
+            <th>Year</th>
+            <th>HorsePower</th>
+        </tr>
+    </table>
+</div>
+
+<div id="listManuf">
+    <table class="listTable">
+        <tr>
+            <th>Name</th>
+            <th>Country</th>
+            <th>Founded</th>
+        </tr>
+    </table>
+</div>
+
 <div id="otherPart">
     <p class="info">Some info about me:</p>
 
@@ -56,6 +80,7 @@
             <td class="me">
                 <li>Name: Szőke Attila</li>
                 <li>Neptune code: CXQ02A</li>
+                <li>Loves: Eating</li>
             </td>
 
         </tr>
