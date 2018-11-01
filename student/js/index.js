@@ -24,12 +24,12 @@ $(document).ready(function () {
 
         $.getJSON('manufacturers', function (data) {
             var table = $('<table id="listTableManuf"></table>');
-            table.append('<tr><th>Name</th><th>Country</th><th>Founded</th></tr>');
+            table.append('<tr><th class="listth">Name</th><th class="listth">Country</th><th class="listth">Founded</th></tr>');
             $.each(data, function (key, value) {
                 var row = $('<tr></tr>');
-                var nameCell = $('<td>' + value.name + '</td>');
-                var countryCell = $('<td>' + value.country + '</td>');
-                var foundedCell =  $('<td>' + value.founded + '</td>');
+                var nameCell = $('<td class="listtd">' + value.name + '</td>');
+                var countryCell = $('<td class="listtd">' + value.country + '</td>');
+                var foundedCell =  $('<td class="listtd">' + value.founded + '</td>');
                 row.append(nameCell);
                 row.append(countryCell);
                 row.append(foundedCell);
@@ -47,16 +47,16 @@ $(document).ready(function () {
 
         $.getJSON('cars', function (data) {
             var table = $('<table id="listTableCar"></table>');
-            table.append('<tr><th>Name</th><th>Consumption</th><th>Color</th><th>Manufacturer</th><th>Available</th><th>Year</th><th>Horsepower</th></tr>');
+            table.append('<tr><th class="listth">Name</th><th class="listth">Consumption</th><th class="listth">Color</th><th class="listth">Manufacturer</th><th class="listth">Available</th><th class="listth">Year</th><th class="listth">Horsepower</th></tr>');
             $.each(data, function (key, value) {
                 var row = $('<tr></tr>');
-                var nameCell = $('<td>' + value.name + '</td>');
-                var consumptionCell = $('<td>' + value.consumption + '</td>');
-                var colorCell =  $('<td>' + value.color + '</td>');
-                var manufacturerCell =  $('<td>' + value.manufacturer + '</td>');
-                var availableCell =  $('<td>' + value.available + '</td>');
-                var yearCell =  $('<td>' + value.year + '</td>');
-                var horsepowerCell =  $('<td>' + value.horsepower + '</td>');
+                var nameCell = $('<td class="listtd">' + value.name + '</td>');
+                var consumptionCell = $('<td class="listtd">' + value.consumption + '</td>');
+                var colorCell =  $('<td class="listtd">' + value.color + '</td>');
+                var manufacturerCell =  $('<td class="listtd">' + value.manufacturer + '</td>');
+                var availableCell =  $('<td class="listtd">' + value.available + '</td>');
+                var yearCell =  $('<td class="listtd">' + value.year + '</td>');
+                var horsepowerCell =  $('<td class="listtd">' + value.horsepower + '</td>');
                 row.append(nameCell);
                 row.append(consumptionCell);
                 row.append(colorCell);

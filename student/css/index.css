@@ -172,9 +172,15 @@ p {
     margin-right: auto;
 }
 
-th {
-   font-size: 25px;
-   font-weight: bold;
+.listth {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.listtd {
+    font-size: 20px;
+    text-align: center;
 }
 
 #listManuf {
