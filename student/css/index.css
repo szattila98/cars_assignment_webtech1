@@ -46,6 +46,10 @@ table {
     margin-left: auto;
 }
 
+.home {
+    text-align: center;
+}
+
 #banner .home:HOVER {
     color: red;
     cursor: pointer;

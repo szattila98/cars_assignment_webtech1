@@ -1,0 +1,39 @@
+<!Doctype html>
+<head>
+    <meta charset="UTF-8">
+    <title>Add Manufacturer</title>
+    <link rel="stylesheet" type="text/css" href="css/manufacturerForm.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="application/javascript" src="js/manufacturerForm.js"></script>
+</head>
+<body>
+
+<table id="menuTable">
+    <tr>
+        <td><a href="index.html" class="menuButton">Home</a></td>
+        <td><a href="carForm.html" class="menuButton">Add Car</a></td>
+    </tr>
+</table>
+
+<div id="content">
+    <form action="addManufacturers" method="post">
+        <table>
+            <tr>
+                <td>Name</td>
+                <td><input id="textField" type="text" name="name"></td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td><input id="textField" type="text" name="country"></td>
+            </tr>
+            <tr>
+                <td>Founded</td>
+                <td><input id="textField" type="date" name="founded"></td>
+            </tr>
+        </table>
+        <input id="submit" type="submit" value="Add Manufacturer">
+    </form>
+</div>
+
+</body>

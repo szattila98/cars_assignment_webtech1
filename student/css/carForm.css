@@ -1,0 +1,80 @@
+body {
+    background-color: whitesmoke;
+    border: 5px solid black;
+}
+
+#menuTable {
+    font-size: 30px;
+    float: right;
+    background: transparent;
+    margin-top: 5px;
+    margin-right: 5%;
+}
+
+#menuTable .menuButton {
+    width: 212px;
+    color: red;
+    font-weight: bolder;
+    text-decoration-line: none;
+    display: inline-block;
+    text-align: center;
+    border: 5px solid darkblue;
+    border-radius: 20px;
+    padding: auto;
+    margin-left: 20%;
+    background: lightgrey;
+    font-family: Arial, serif;
+}
+
+#menuTable .menuButton:HOVER {
+    background: red;
+    color: white;
+}
+
+#content {
+    margin: 2% 2% 2% 10%;
+    font-size: 30px;
+}
+
+#done {
+    margin: 2% auto;
+    text-align: center;
+}
+
+#doneLink {
+    font-size: 50px;
+    font-family: "Ubuntu Mono", serif;
+    font-weight: bold;
+    text-decoration-line: none;
+    color: black;
+    cursor: pointer;
+}
+
+#doneLink:Hover {
+    color: red;
+}
+
+#submit {
+    width: auto;
+    height: auto;
+    font-size: large;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 4px 5px 4px 10%;
+}
+
+#textField {
+    width: 250px;
+    height: 30px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    padding-left: 10px;
+    font-size: medium;
+}
