@@ -53,7 +53,7 @@ $(document).ready(function () {
                 var nameCell = $('<td class="listtd">' + value.name + '</td>');
                 var consumptionCell = $('<td class="listtd">' + value.consumption + '</td>');
                 var colorCell =  $('<td class="listtd">' + value.color + '</td>');
-                var manufacturerCell =  $('<td class="listtd">' + value.manufacturer + '</td>');
+                var manufacturerCell =  $('<td class="listtd">' + value.manufacturer.toString() + '</td>');
                 var availableCell =  $('<td class="listtd">' + value.available + '</td>');
                 var yearCell =  $('<td class="listtd">' + value.year + '</td>');
                 var horsepowerCell =  $('<td class="listtd">' + value.horsepower + '</td>');
