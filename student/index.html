@@ -22,8 +22,9 @@
         <!--formoknal legordulore is van metodus-->
         <td><a href="#" class="menuButton">List Cars</a></td>
         <!--kulon html oldalra es az vezet teljes listara meg manufacturer altali rendezesre-->
-        <td><a href="carForm.html" class="menuButton">Add Car</a></td>
-        <td><a href="manufacturerForm.html" class="menuButton">Add Manufacturer</a></td>
+        <td><a href="#" class="menuButton">Add Car</a></td>
+        <td><a href="#" class="menuButton">Add Manufacturer</a></td>
+        <td><a href="#" class="menuButton">Cookie is walking!</a></td>
     </tr>
 </table>
 
@@ -31,7 +32,6 @@
 <table>
     <tr>
         <img src="images/carsbackground.png" class="contentImage">
-        <!--lehetne masik is-->
     </tr>
 </table>
 
@@ -48,6 +48,74 @@
 
 <div id="listManuf">
     <!--Table for manufacturer listing-->
+</div>
+
+<div id="addCar">
+    <div id="content">
+        <form action="addCar" method="post">
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td><input id="textField" type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td>Consumption</td>
+                    <td><input id="textField" type="text" name="consumption"></td>
+                </tr>
+                <tr>
+                    <td>Color</td>
+                    <td><input id="textField" type="text" name="color"></td>
+                </tr>
+                <tr>
+                    <td>Manufacturer</td>
+                    <td>
+                        <select name="manufacturer" id="dropdown">
+
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Available</td>
+                    <td><input id="textField" type="number" name="available"></td>
+                </tr>
+                <tr>
+                    <td>Year</td>
+                    <td><input id="textField" type="number" name="year"></td>
+                </tr>
+                <tr>
+                    <td>HorsePower</td>
+                    <td><input id="textField" type="number" name="horsepower"></td>
+                </tr>
+            </table>
+            <input id="submit" type="submit" value="Add Car">
+        </form>
+    </div>
+</div>
+
+<div id="addManuf">
+    <div id="content">
+        <form action="addManufacturers" method="post">
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td><input id="textField" type="text" name="name"></td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td><input id="textField" type="text" name="country"></td>
+                </tr>
+                <tr>
+                    <td>Founded</td>
+                    <td><input id="textField" type="date" name="founded"></td>
+                </tr>
+            </table>
+            <input id="submit" type="submit" value="Add Manufacturer">
+        </form>
+    </div>
+</div>
+
+<div id="cookie">
+    <!--cookie form-->
 </div>
 
 <div id="otherPart">

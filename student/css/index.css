@@ -25,7 +25,7 @@ table {
     border: 5px solid darkblue;
     border-radius: 20px;
     padding: auto;
-    margin-left: 20%;
+    margin-left: 13%;
     background: lightgrey;
     font-family: Arial, serif;
 }
@@ -197,3 +197,74 @@ p {
 #listCar {
     display: none;
 }
+
+#addCar {
+    display: none;
+}
+
+#addManuf {
+    display: none;
+}
+
+#cookie {
+    display: none;
+}
+
+#content {
+    margin: 2% 2% 2% 10%;
+    font-size: 30px;
+}
+
+#done {
+    margin: 2% auto;
+    text-align: center;
+}
+
+#doneLink {
+    font-size: 50px;
+    font-family: "Ubuntu Mono", serif;
+    font-weight: bold;
+    text-decoration-line: none;
+    color: black;
+    cursor: pointer;
+}
+
+#doneLink:Hover {
+    color: red;
+}
+
+#submit {
+    width: auto;
+    height: auto;
+    font-size: large;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    float: right;
+}
+
+#textField {
+    width: 250px;
+    height: 30px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    padding-left: 10px;
+    font-size: medium;
+}
+#dropdown {
+    width: 250px;
+    height: 30px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    padding-left: 10px;
+    font-size: medium;
+}
+
