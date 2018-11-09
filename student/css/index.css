@@ -190,6 +190,17 @@ p {
     border: 1px solid black;
 }
 
+.listtdH {
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.listtdH:HOVER {
+    color: red;
+}
+
 #listManuf {
     display: none;
 }
@@ -257,6 +268,7 @@ p {
     padding-left: 10px;
     font-size: medium;
 }
+
 #dropdown {
     width: 250px;
     height: 30px;

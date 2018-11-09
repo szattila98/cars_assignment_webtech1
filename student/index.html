@@ -10,7 +10,7 @@
 <body>
 
 <div id="banner">
-    <p class="home">Car Record Manager</p>
+    <p onclick="toHome()" class="home">Car Record Manager</p>
 </div>
 
 
@@ -21,9 +21,8 @@
         <!--formoknal legordulore is van metodus-->
         <td><a href="#" onclick="listCars()" class="menuButton">List Cars</a></td>
         <!--kulon html oldalra es az vezet teljes listara meg manufacturer altali rendezesre-->
-        <td><a href="#" class="menuButton">Add Car</a></td>
-        <td><a href="#" class="menuButton">Add Manufacturer</a></td>
-        <td><a href="#" onclick="cookieF()" class="menuButton">Cookie is walking!</a></td>
+        <td><a href="#" onclick="addCar()" class="menuButton">Add Car</a></td>
+        <td><a href="#" onclick="addManufacturer()" class="menuButton">Add Manufacturer</a></td>
     </tr>
 </table>
 
@@ -51,7 +50,7 @@
 
 <div id="addCar">
     <div id="content">
-        <form action="addCar" method="post">
+        <form action="addCar" method="post" id="addCarForm">
             <table>
                 <tr>
                     <td>Name</td>
@@ -93,7 +92,7 @@
 
 <div id="addManuf">
     <div id="content">
-        <form action="addManufacturers" method="post">
+        <form action="addManufacturers" method="post" id="addManufForm">
             <table>
                 <tr>
                     <td>Name</td>
